@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	overflow-x: hidden;
 }
 
 ol, ul {
@@ -2590,10 +2589,10 @@ input, select, textarea {
 
 		.carousel article {
 			display: inline-block;
-			width: 18em;
 			background: #fff;
+			width: 80vw !important;
 			text-align: center;
-			padding: 0 1em 3em 1em;
+			padding: 0 0m 3em 1em;
 			margin: 0 2em 0 0;
 			white-space: normal;
 			opacity: 1.0;
@@ -2857,7 +2856,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			#page-wrapper {
+			/* #page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3037,7 +3036,7 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			}
+			} */
 
 		/* Wrapper */
 
