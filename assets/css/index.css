@@ -104,3 +104,12 @@ form{
     margin-right: 0.5em;
 }
 
+/* Footer */
+#footer{
+    padding-bottom: 3em;
+}
+
+.copyright{
+    padding-top: 4em;
+}
+

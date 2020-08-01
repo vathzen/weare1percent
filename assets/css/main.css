@@ -2280,7 +2280,7 @@ input, select, textarea {
 	}
 
 /* Nav */
-/* 
+
 	#nav {
 		position: absolute;
 		top: 0;
@@ -2403,7 +2403,7 @@ input, select, textarea {
 				border-bottom: solid 0.75em rgba(255, 255, 255, 0.975);
 				border-left: solid 0.75em rgba(64, 64, 64, 0);
 				border-right: solid 0.75em rgba(64, 64, 64, 0);
-			} */
+			}
 
 /* Banner */
 
@@ -2856,7 +2856,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			/* #page-wrapper {
+			#page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3036,7 +3036,7 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			} */
+			}
 
 		/* Wrapper */
 
