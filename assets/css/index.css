@@ -1,35 +1,10 @@
-form{
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
+/* Video */
 #videoBg{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    height: 100%;
     z-index: -1;
-}
-
-#carousel{
-    padding-top: 0em;
-}
-
-#header{
-    padding-bottom: 0em;
-}
-
-#sign-up-form{
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 15px;
-    padding: 2em;
-}
-
-.sign-up-data{
-    padding-top: 2em;
-    padding-bottom: 2em;
 }
 
 .customButton{
@@ -48,10 +23,56 @@ form{
     background-color: transparent !important;
 }
 
-.align-items-center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Header */
+#header{
+    padding-bottom: 0;
+}
+
+#header:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(to top,
+        rgba(0,119,190, 1) 8%, 
+        rgba(255,255,255, 0) 20%
+    );
+}
+
+/* Info */
+.wrapper-info{
+    padding-top: 2em;
+}
+
+/* Carousel */
+#carousel{
+    padding-top: 2em;
+    background: #fff;
+}
+
+/* Form */
+form{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.wrapper-form{
+    margin-top: 2em;
+}
+
+#sign-up-form{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 2em;
+}
+
+.sign-up-data{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .form-group{
@@ -61,3 +82,17 @@ form{
 .input{
     width: 95% !important;
 }
+
+/* Common */
+.align-items-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded-rectangle{
+    border-radius: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+

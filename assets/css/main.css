@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 
 ol, ul {
@@ -83,7 +84,7 @@ input, select, textarea {
 	} */
 
 	body {
-		background: #f0f4f4;
+		background: #0077be;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -2255,7 +2256,7 @@ input, select, textarea {
 			font-size: 4em;
 		}
 
-		body.homepage #header:after {
+		/* body.homepage #header:after {
 			content: '';
 			background: #1C0920;
 			display: block;
@@ -2273,7 +2274,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.5s;
 			-ms-transition-delay: 0.5s;
 			transition-delay: 0.5s;
-		}
+		} */
 
 	body.homepage.is-preload #header:after {
 		opacity: 1;
