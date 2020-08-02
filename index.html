@@ -5,6 +5,7 @@
 	<title>We are 1 Percent</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/ico">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/index.css" />
 
@@ -22,10 +23,10 @@
 				<header>
 					<embed src="images/logo.svg" width="100%">
 					<hr />
-					<p>Cleaning homes while cleaning Oceans</p>
+					<p class="subheading comicgibi">Cleaning homes while cleaning Oceans</p>
 				</header>
 				<footer>
-					<button href="#position-id" class="customButton scrolly">About Us</a>
+					<button href="#carousel" class="customButton scrolly">Our Products</a>
 				</footer>
 			</div>
 			<nav id="nav" class="navIndex">
@@ -41,7 +42,58 @@
 			</nav>
 		</div>
 
-		
+		<h2 id="carousel" style="text-align: center; padding-bottom: 0.5em; padding-top: 0.5em;">Our Products</h2>
+		<div class="carousel">
+			<ul class="slides">
+				<input type="radio" name="radio-buttons" id="img-1" checked />
+				<li class="slide-container">
+					<div class="slide-image">
+						<img src="images/Carousel2.png">
+					</div>
+					<div class="carousel-controls">
+						<label for="img-3" class="prev-slide">
+							<span>&lsaquo;</span>
+						</label>
+						<label for="img-2" class="next-slide">
+							<span>&rsaquo;</span>
+						</label>
+					</div>
+				</li>
+				<input type="radio" name="radio-buttons" id="img-2" />
+				<li class="slide-container">
+					<div class="slide-image">
+						<img src="images/Carousel3.png">
+					</div>
+					<div class="carousel-controls">
+						<label for="img-1" class="prev-slide">
+							<span>&lsaquo;</span>
+						</label>
+						<label for="img-3" class="next-slide">
+							<span>&rsaquo;</span>
+						</label>
+					</div>
+				</li>
+				<input type="radio" name="radio-buttons" id="img-3" />
+				<li class="slide-container">
+					<div class="slide-image">
+						<img src="images/Carousel1.png">
+					</div>
+					<div class="carousel-controls">
+						<label for="img-2" class="prev-slide">
+							<span>&lsaquo;</span>
+						</label>
+						<label for="img-1" class="next-slide">
+							<span>&rsaquo;</span>
+						</label>
+					</div>
+				</li>
+				<div class="carousel-dots">
+					<label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+					<label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+					<label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+				</div>
+			</ul>
+		</div>
 
 		<div class="wrapper style1 wrapper-info" id="position-id">
 			<section id="features" class="container special">
@@ -92,58 +144,6 @@
 			</section>
 
 		</div>
-		<h2 id="carousel" style="text-align: center; padding-bottom: 0.5em; padding-top: 0.5em;">Our Products</h2>
-		<div class="carousel">
-			<ul class="slides">
-			  <input type="radio" name="radio-buttons" id="img-1" checked />
-			  <li class="slide-container">
-				<div class="slide-image">
-				  <img src="images/Carousel2.png">
-				</div>
-				<div class="carousel-controls">
-				  <label for="img-3" class="prev-slide">
-					<span>&lsaquo;</span>
-				  </label>
-				  <label for="img-2" class="next-slide">
-					<span>&rsaquo;</span>
-				  </label>
-				</div>
-			  </li>
-			  <input type="radio" name="radio-buttons" id="img-2" />
-			  <li class="slide-container">
-				<div class="slide-image">
-				  <img src="images/Carousel3.png">
-				</div>
-				<div class="carousel-controls">
-				  <label for="img-1" class="prev-slide">
-					<span>&lsaquo;</span>
-				  </label>
-				  <label for="img-3" class="next-slide">
-					<span>&rsaquo;</span>
-				  </label>
-				</div>
-			  </li>
-			  <input type="radio" name="radio-buttons" id="img-3" />
-			  <li class="slide-container">
-				<div class="slide-image">
-				  <img src="images/Carousel1.png">
-				</div>
-				<div class="carousel-controls">
-				  <label for="img-2" class="prev-slide">
-					<span>&lsaquo;</span>
-				  </label>
-				  <label for="img-1" class="next-slide">
-					<span>&rsaquo;</span>
-				  </label>
-				</div>
-			  </li>
-			  <div class="carousel-dots">
-				<label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-				<label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-				<label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-			  </div>
-			</ul>
-		  </div>
 
 		<div class="wrapper style1 wrapper-how" id="howitworks">
 			<article class="container special">
@@ -179,7 +179,7 @@
 				<div class="container-fluid" id="sign-up-form">
 					<h1 style="text-align: center;">Want to get notified about our products? Sign Up here to make a
 						change right from your home.</h1>
-					<form target="_blank" action="https://formsubmit.co/457f1921d827f7b65e91f6d3d034a23f" method="POST">
+					<form target="_blank" action="https://formsubmit.co/a9328b4cc1a60e6d93e952fe567200cb" method="POST">
 						<div class="form-group">
 							<div class="form-row">
 								<div class="col">
@@ -214,17 +214,23 @@
 						<p style="text-align: center;">We are based from Gothenburg , Sweden</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-6">
-						<h4 style="color: black;">Social Media</h4>
-						<a href="#" class="icon brands fa-instagram" style="padding-right: 1vw;"><span
-								class="label">Instagram</span></a>
-						<a href="#" class="icon brands fa-facebook" style="padding-right: 1vw;"><span
-								class="label">Facebook</span></a>
+				<div class="row" style="display: flex; flex-direction: row;">
+					<div class="col-6" style="display: flex; flex-direction: column;">
+						<div class="row" style="display: flex; flex-direction: row; justify-content: flex-end;">
+							<h4 style="color: black;">Social Media</h4>
+						</div>
+						<div class="row" style="display: flex; flex-direction: row; justify-content: flex-end;">
+							<a href="#" class="icon brands fa-instagram" style="padding-right: 1vw;"></a>
+							<a href="#" class="icon brands fa-facebook" style="padding-right: 1vw;"></a>
+						</div>
 					</div>
-					<div class="col-6">
-						<a href="mailto:sayhello@weare1percent.com">sayhello@weare1percent.com</a><br>
-						<a href="tel:+46721882212">+46 72 188 22 12</a>
+					<div class="col-6" style="display: flex; flex-direction: column;">
+						<div class="row" style="display: flex; flex-direction: row; justify-content: flex-start;">
+							<a href="mailto:sayhello@weare1percent.com">sayhello@weare1percent.com</a>
+						</div>
+						<div class="row" style="display: flex; flex-direction: row; justify-content: start;">
+							<a href="tel:+46721882212">+46 72 188 22 12</a>
+						</div>
 					</div>
 
 				</div>
@@ -232,7 +238,7 @@
 					<div class="copyright">
 						<ul class="menu" style="color: black;">
 							<li>&copy; 1 Percent. All rights reserved.</li>
-							<li>Design: LazyPanda</li>
+							<li>Design: LazyPandaw</li>
 						</ul>
 					</div>
 				</div>

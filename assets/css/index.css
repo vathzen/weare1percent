@@ -1,3 +1,10 @@
+@font-face{
+    font-family: "Comic Gibi";
+    src: url("/assets/css/fonts/Comic\ Gibi.ttf") format("truetype");
+}
+.comicgibi{
+    font-family: 'Comic Gibi',sans-serif;
+}
 /* Video */
 #videoBg{
     position: absolute;
@@ -23,6 +30,11 @@
     background-color: transparent !important;
 }
 
+.subheading{
+    font-size: 30px !important;
+    font-weight: 500;
+}
+
 /* Header */
 .navIndex{
     padding-top: 0 !important;
@@ -37,19 +49,6 @@
     padding-bottom: 0;
     overflow-x: hidden;
 }
-
-/* .headerDiv:after{
-    position: absolute;
-    left: 0;
-    bottom: 0;  
-    height: 100%;
-    width: 100%;
-    content: "";
-    background: linear-gradient(to top,
-        rgba(255,255,255, 1) 8%, 
-        rgba(255,255,255, 0) 20%
-    );
-} */
 
 .comingsoon{
     background-color: cadetblue;
@@ -253,3 +252,11 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 
 input:checked + .slide-container .nav label { display: block; }
+
+/* Other Page */
+.row-icons{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
