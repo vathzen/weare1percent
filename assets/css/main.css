@@ -83,7 +83,7 @@ input, select, textarea {
 	} */
 
 	body {
-		background: #0077be;
+		background: #fff;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -2190,7 +2190,7 @@ input, select, textarea {
 			content: '';
 			display: inline-block;
 			vertical-align: middle;
-			height: 100%;
+			height: 80%;
 		}
 
 		#header .inner {
@@ -2280,7 +2280,7 @@ input, select, textarea {
 	}
 
 /* Nav */
-/* 
+
 	#nav {
 		position: absolute;
 		top: 0;
@@ -2403,7 +2403,7 @@ input, select, textarea {
 				border-bottom: solid 0.75em rgba(255, 255, 255, 0.975);
 				border-left: solid 0.75em rgba(64, 64, 64, 0);
 				border-right: solid 0.75em rgba(64, 64, 64, 0);
-			} */
+			}
 
 /* Banner */
 
@@ -2504,7 +2504,7 @@ input, select, textarea {
 
 /* Carousel */
 
-	.carousel {
+	/* .carousel {
 		position: relative;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
@@ -2617,7 +2617,7 @@ input, select, textarea {
 
 			.carousel article p {
 				text-align: center;
-			}
+			} */
 
 /* Wide */
 
@@ -2632,7 +2632,7 @@ input, select, textarea {
 
 		/* Carousel */
 
-			.carousel {
+			/* .carousel {
 				padding: 1.5em 0 1.5em 0;
 			}
 
@@ -2643,7 +2643,7 @@ input, select, textarea {
 				.carousel article {
 					width: 18em;
 					margin: 0 1.25em 0 0;
-				}
+				} */
 
 	}
 
@@ -2722,14 +2722,14 @@ input, select, textarea {
 
 		/* Carousel */
 
-			.carousel {
+			/* .carousel {
 				padding: 1.25em 0 1.25em 0;
 			}
 
 				.carousel article {
 					width: 18em;
 					margin: 0 1em 0 0;
-				}
+				} */
 
 	}
 
@@ -2856,7 +2856,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			/* #page-wrapper {
+			#page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3036,7 +3036,7 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			} */
+			}
 
 		/* Wrapper */
 
@@ -3117,7 +3117,7 @@ input, select, textarea {
 
 		/* Carousel */
 
-			.carousel {
+			/* .carousel {
 				padding: 0.5em 0 0.5em 0;
 			}
 
@@ -3133,6 +3133,6 @@ input, select, textarea {
 
 					.carousel article .image {
 						margin-bottom: 2em;
-					}
+					} */
 
 	}
