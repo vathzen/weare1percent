@@ -69,6 +69,42 @@
     padding-bottom: 2em;
 }
 
+@media screen and (max-width : 1680px){
+    .caption{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width : 1166px){
+    .caption{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width : 1074px){
+    .caption{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 982px){
+    .caption{
+        font-size: 14px;
+    }
+
+    /* .featured img{
+        width: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+}
+
+@media screen and (max-width : 736px){
+    .caption{
+        font-size: 18px;
+    }
+}
+
 /* Form */
 form{
     padding-top: 1em;
@@ -142,27 +178,64 @@ ul.slides {
     list-style: none;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1300px){
     ul.slides{
-        height: 90vh;
+        height: 95vh;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    ul.slides{
+        height: 89vh;
+    }
+
+    .carousel-dots .carousel-dot{
+        width: 15px !important;
+        height: 15px !important;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    ul.slides{
+        height: 69vh;
+    }
+
+    .carousel-dots .carousel-dot{
+        width: 15px !important;
+        height: 15px !important;
     }
 }
 
 @media screen and (max-width: 900px){
     ul.slides{
-        height: 80vh;
+        height: 63vh;
+    }
+
+    .carousel-dots .carousel-dot{
+        width: 15px !important;
+        height: 15px !important;
     }
 }
 
 @media screen and (max-width: 800px){
     ul.slides{
-        height: 72vh;
+        height: 53vh;
+    }
+
+    .carousel-dots .carousel-dot{
+        width: 15px !important;
+        height: 15px !important;
     }
 }
 
 @media screen and (max-width: 700px){
     ul.slides{
-        height: 64vh;
+        height: 50vh;
+    }
+
+    .carousel-dots .carousel-dot{
+        width: 15px !important;
+        height: 15px !important;
     }
 }
 
@@ -170,17 +243,32 @@ ul.slides {
     ul.slides{
         height: 55vh;
     }
+
+    .carousel-dots .carousel-dot{
+        width: 10px !important;
+        height: 10px !important;
+    }
 }
 
 @media screen and (max-width: 500px){
     ul.slides{
         height: 45vh;
     }
+
+    .carousel-dots .carousel-dot{
+        width: 10px !important;
+        height: 10px !important;
+    }
 }
 
 @media screen and (max-width: 400px){
     ul.slides{
-        height: 33vh;
+        height: 28vh;
+    }
+
+    .carousel-dots .carousel-dot{
+        width: 10px !important;
+        height: 10px !important;
     }
 }
 
@@ -220,12 +308,11 @@ ul.slides input {
 
 .carousel-controls {
     position: absolute;
-    top: 0;
+    top: 40%;
     left: 0;
     right: 0;
     z-index: 999;
     font-size: 100px;
-    line-height: 600px;
     color: #fff;
 }
 
@@ -233,7 +320,6 @@ ul.slides input {
     display: none;
     position: absolute;
     padding: 0 20px;
-    opacity: 0;
     transition: opacity .2s;
     cursor: pointer;
 }
