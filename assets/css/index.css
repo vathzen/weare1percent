@@ -1,9 +1,9 @@
 @font-face{
-    font-family: "Comic Gibi";
-    src: url("/assets/css/fonts/Comic\ Gibi.ttf") format("truetype");
+    font-family: "Pristina";
+    src: url("/assets/css/fonts/Pristina.TTF") format("truetype");
 }
-.comicgibi{
-    font-family: 'Comic Gibi',sans-serif;
+.pristina{
+    font-family: 'Pristina',sans-serif;
 }
 /* Video */
 #videoBg{
@@ -171,7 +171,7 @@ p{
 ul.slides {
     display: block;
     position: relative;
-    height: 100vh;
+    height: 110vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -308,7 +308,7 @@ ul.slides input {
 
 .carousel-controls {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 0;
     right: 0;
     z-index: 999;
