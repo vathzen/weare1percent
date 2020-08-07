@@ -161,9 +161,15 @@ p{
     background-color: cadetblue;
     padding-bottom: 3em;
 }
-
 .copyright{
     padding-top: 4em;
+}
+
+@media screen and (max-width: 500px){
+    .mobile-row{
+        flex-direction: column !important;
+        align-items: center;
+    }
 }
 
 /* Carousel */
@@ -176,6 +182,12 @@ ul.slides {
     padding: 0;
     overflow: hidden;
     list-style: none;
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px){
+    .carousel-dots{
+        bottom: 110px !important;
+    }
 }
 
 @media screen and (max-width: 1300px){
